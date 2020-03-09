@@ -1,1 +1,1 @@
-/root/.local/share/omf/themes/fox/fish_prompt.fish
+/root/.local/share/omf/themes/bobthefish/fish_prompt.fish
