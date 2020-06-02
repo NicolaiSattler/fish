@@ -3,7 +3,7 @@ function loop_dir_git_pull
 
     cd $argv
     
-    for d in (find . -mindepth 1 -name .git -type d -prune)
+    for d in (find . -maxdepth 2 -name .git -type d -prune)
         cd $d/..
         echo $d
        
